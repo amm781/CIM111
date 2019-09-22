@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+
+
+
+
+  h2{
+    color: DarkCyan;
+  }
+
+  h2 em{
+    font-family:sans-serif;
+    text-decoration:underline;
+  }
+
+
+  ul li{
+    font-family:'tangerine';
+    }
+
+
+
+
+
+  a{
+  text-decoration: none;
+  }
+
+  a:hover{
+    background-color:red;
+  }
+
+
+  a{
+    color: Yellow;
+  }
+
+  .name{
+    text-align: center;
+  }
+
+  .underline{
+    text-decoration: underline;
+    font-weight: none;
+  }
+
+  .links{
+    color: orange;
+  }
+
+
+
+  a:visited{
+    color: black;
+  }
+
+  #aboutme{
+    color: red;
+  }
