@@ -1,58 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Slab&display=swap');
 
 
 
   h2{
-    color: DarkCyan;
+    color:Cornflowerblue;
   }
 
-  h2 em{
-    font-family:sans-serif;
-    text-decoration:underline;
+  h2{
+    font-family:Serif;
   }
-
-
-  ul li{
-    font-family:'tangerine';
-    }
-
-
-
-
 
   a{
-  text-decoration: none;
+  text-decoration:None;
   }
 
   a:hover{
-    background-color:red;
+    background-color:Red;
   }
 
-
-  a{
-    color: Yellow;
-  }
-
-  .name{
-    text-align: center;
-  }
-
-  .underline{
-    text-decoration: underline;
-    font-weight: none;
+ .position{
+    text-align:center;
   }
 
   .links{
-    color: orange;
+    color:Pink;
   }
 
 
+.italic{
+  font-style:Italic;
+}
+
+
+
+
+  address{
+    color:Red;
+  }
 
   a:visited{
-    color: black;
+    color:Purple;
   }
 
-  #aboutme{
-    color: red;
+  #fancy{
+    font-family:'Josefin Slab',Serif;
+  }
+
+  #underline{
+    text-decoration:Underline;
+  }
+  #shadow{
+  text-shadow:#FC0 1px 0 10px;
+  }
+
+  #mets{
+    color:DarkOrange;
+  }
+
+  #chips{
+    color:Darkgoldenrod;
   }
