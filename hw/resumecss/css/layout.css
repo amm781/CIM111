@@ -2,8 +2,13 @@
 
 
 
+
+
   h2{
-    color:Cornflowerblue;
+    color:Firebrick;
+  }
+  body{
+    background-color: PowderBlue;
   }
 
   h2{
@@ -15,7 +20,7 @@
   }
 
   a:hover{
-    background-color:Red;
+    background-color:Mistyrose;
   }
 
  .position{
@@ -23,7 +28,7 @@
   }
 
   .links{
-    color:Pink;
+    color:Mediumvioletred;
   }
 
 
@@ -35,7 +40,7 @@
 
 
   address{
-    color:Red;
+    color:Firebrick;
   }
 
   a:visited{
@@ -50,10 +55,10 @@
     text-decoration:Underline;
   }
   #shadow{
-  text-shadow:#FC0 1px 0 10px;
+  text-shadow:1px 0 10px Firebrick;
   }
 
-  #mets{
+  #teamcolor{
     color:DarkOrange;
   }
 
