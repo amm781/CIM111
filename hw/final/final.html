@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final</title>
+    <link rel="stylesheet" href="css/desktop.css"/>
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" href="css/jquery.pagepiling.css"/>
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
+    <meta name="viewport" content="intial-scale=1">
+  </head>
+
+
+<body>
+<header></header>
+
+<main>
+
+    <div id="pagepiling">
+
+  <div class="section sec1">
+    <section id="grid1">
+      <img src="images/blacklogoJuve1.jpg" alt="image1">
+      <h3 id="title">Scroll Down to Explore</h3>
+    </section>
+  </div>
+
+	<div class="section sec2">
+    <section id="grid2">
+    <h2>Our Story</h2>
+    <section>
+    <p>In name at least, there had always been a Juventus Club at the Football Fcatory
+      at Legends in New York City. But the club was not organized well, and turnouts
+      for games were low. Six people were inspired to change the culture, knowing that
+      a prestigious team such as Juventus could produce a much larger and more engaging
+      community in New York City. Working together, those six fans spent months laying
+      the groundwork for a new and improved fan club. In 2015, we hosted our first watch party under
+      the new leadership.Two years later after facing trials and tribulations, we were
+      able to to succesfully become Juventus Official Fan Club Empire State. Uniting
+      with smaller fan clubs across the city to create one.</p>
+    </section>
+    </div>
+
+	<div class="section sec3">
+  <section id="grid3">
+    <h2>WHO WE ARE</h2>
+  <p>At Juventus Official Fan Club Empire State, we have a bevy of ways to get invovlevd
+     and feel like you are a part of a special tightknit community. Along with hosting watch parties every
+      Sunday during the Serie A season, we also host special match day experiences at
+      Football Factory in Legends during the Champions League. By joining the club you
+      also gain priority access to Special Juventus Events, whether thats early access
+      to match day tickets, meeting players, attaining new merch, and much more. </p>
+   </section>
+     </div>
+
+	<div class="section sec4">
+    <h2>GALLERY</h2>
+    <section>
+    ..
+<div class="shuffle-me">
+  <img src="images/celebration3.jpg">
+  <img src="images/parade1v2.jpg">
+  <img src="images/team1v3.jpg">
+  <img src="images/squad1v3.jpg">
+  <img src="images/meetplayer1v3.jpg">
+  <img src="images/legends1v2.jpg">
+  <img src="images/meetplayer2v1.jpg">
+  ..
+</div>
+..
+     </div>
+
+	<div class="section sec5">
+  <section id="grid5">
+    <h2>FOLLOW</h2>
+    <p>Keep yourself updated on all things Juventus by following our facebook, twitter,
+       and instagram accounts. There you will see the latest news on the team and
+       whats going on in the fan club.
+    </p>
+
+    <ul>
+      <li class="list"><a href="https://www.instagram.com/juventusclubempirestatenyc/">Juventus Club Empire State NYC </a>on instagram</li>
+      <br>
+      <li class="list"><a href="https://www.facebook.com/groups/1478503652451103/permalink/1919121998389264/?comment_id=1919203691714428&comment_tracking=%7B%22tn%22%3A%22R0%22%7D">Juventus Club NYC </a>on facebook</li>
+      <br>
+      <li class="list"><a href="https://twitter.com/juventusclubnyc?lang=en">Juventus Club NYC </a>on twitter</li>
+    </ul>
+
+  </section>
+</div>
+
+  <div class="section sec6">
+    <section id="grid6">
+      <h2>CONTACT US</h2>
+      <h5>Below is some basic information about the club</h5>
+      <p>President: Battat Tal Samson
+        <br>
+        Contact Person: Lazo JP
+        <br>
+        Headquaters: 6 West 33rd Street, New York, United States
+      </p>
+      <h5>Contact Page</h5>
+      <p>If interested in the club please do not hestiate, we welcome all walks of life
+      and would welcome you with open arms.</p>
+      <a href="https://www.juventus.com/en/fans/club-doc/foreign-clubs/united-states/empire-state/official-fan-club-empire-state.php">Click here to get redirected to a contact page</a>
+    </section>
+  </div>
+
+  </div>
+
+</main>
+
+<footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.js"></script>
+    <script type="text/javascript" src="javascript/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.pagepiling.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+	$('#pagepiling').pagepiling({navigation: {
+            'textColor': '#000',
+            'bulletsColor': '#000',
+            'position': 'right',
+            'tooltips': ['HOME', 'STORY', 'ABOUT', 'GALLERY','FOLLOW','CONTACT',]
+        }});
+        $(".shuffle-me").shuffleImages({
+         trigger: "imageMouseMove",     // Choose which type of trigger you want here. Available options are "imageMouseMove", "imageHover", "documentMouseMove", and "documentScroll". "imageMouseMove" will trigger when your mouse over the image and move your cursor. "imageHover" will trigger when you mouse over without moving your cursor. "documentMouseMove" will trigger when cursor is being moved anywhere on the page. "documentScroll" will trigger when you scroll the page. The default value is "imageMouseMove"
+         triggerTarget: false,          // For "imageMouseMove", and "imageHover" only, you can set which element to trigger the image shuffle when mouse over. For example, if you want a container ".main" to trigger an image shuffle instead of the image itself, put $(".main") for this option. Default value is false.
+         mouseMoveTrigger: 20,          // For "imageMouseMove" only, you can set how many pixels you have to move in order to trigger one image shuffle. The lower the faster. The default value is 50.
+         hoverTrigger: 200,             // For "imageHover" only, you can set how long you have to hover the image until it shuffles to other images. The option accepts milliseconds without unit. The default value is 200.
+         scrollTrigger: 100,          // For "documentScroll" only, you can set how many pixels you have to scroll to see the image shuffle. The default value is 100.
+         target: "> img"              // In case you have a complete HTML structure, you can set your own custom selector to your images here. The default value is "> img" which means images that are directly under the "shuffle-me" will be used to shuffle.
+       });
+
+  });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152833771-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152833771-1');
+</script>
+
+  </body>
+</html>

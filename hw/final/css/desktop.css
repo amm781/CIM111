@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal&display=swap');
+
+
+#pagepiling{
+text-align: center;
+}
+
+#pagepiling .section.sec2 h2{
+font-size: 96px;
+text-shadow:0 10px 15px rgba(0,0,0,.5);
+color: #0d0d19;
+
+
+
+}
+
+#pagepiling .section.sec3 h2{
+font-size: 96px;
+text-shadow:0 10px 15px rgba(0,0,0,.5);
+color: #0d0d19;
+
+
+}
+
+#pagepiling .section.sec4 h2{
+font-size: 96px;
+text-shadow:0 10px 15px rgba(0,0,0,.5);
+color: #0d0d19;
+}
+
+#pagepiling .section.sec5 h2{
+font-size: 96px;
+text-shadow:0 10px 15px rgba(0,0,0,.5);
+color: #0d0d19;
+}
+
+#pagepiling h3{
+color:#D6BC44;
+font-size: 60px;
+text-align:center;
+margin-bottom: -960px;
+margin-left: -200px;
+margin-right: -200px;
+margin-bottom: 0 auto;
+font-family: 'Arsenal', sans-serif;
+}
+
+
+#pagepiling .section.sec1{
+background-image: url('../images/nychome12.jpg');
+}
+
+#pagepiling .section.sec1 img{
+width: 695px;
+height: auto;
+margin-top: -465px;
+}
+
+#grid1{
+  display: grid;
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#pagepiling .section.sec2{
+background-size: cover;
+background: rgb(210,209,190);
+background: radial-gradient(circle, rgba(210,209,190,1) 45%, rgba(199,199,201,1) 100%);
+}
+
+#pagepiling .section.sec2 p{
+font-size: 22px;
+text-align: center;
+font-family: 'Arsenal', sans-serif;
+
+}
+
+
+#grid2{
+display: grid;
+margin: 0 auto;
+width: 960px;
+height: auto;
+
+}
+
+#pagepiling .section.sec3{
+background-size: cover;
+background: rgb(210,209,190);
+background: radial-gradient(circle, rgba(210,209,190,1) 45%, rgba(199,199,201,1) 100%);
+}
+
+#pagepiling .section.sec3 p{
+font-size: 22px;
+text-align: center;
+font-family: 'Arsenal', sans-serif;
+}
+
+#grid3{
+display: grid;
+margin: 0 auto;
+width: 960px;
+height: auto;
+
+}
+
+#pagepiling .section.sec4{
+background-size: cover;
+background: rgb(210,209,190);
+background: radial-gradient(circle, rgba(210,209,190,1) 45%, rgba(199,199,201,1) 100%);
+}
+
+#pagepiling .section.sec4 img{
+  width: 305px;
+  height: auto;
+}
+
+#pagepiling .section.sec5{
+background-size: cover;
+background: rgb(210,209,190);
+background: radial-gradient(circle, rgba(210,209,190,1) 45%, rgba(199,199,201,1) 100%);
+
+}
+
+#pagepiling .section.sec5 p{
+font-size: 22px;
+font-family: 'Arsenal', sans-serif;
+}
+
+#grid5{
+display: grid;
+margin: 0 auto;
+width: 960px;
+height: auto;
+}
+
+.list{
+list-style: none;
+font-family: 'Arsenal', sans-serif;
+}
+
+a{
+text-decoration:None;
+font-size: 25px;
+font-family: 'Arsenal', sans-serif;
+}
+
+a:hover{
+background-color:Mistyrose;
+}
+
+li{
+font-size: 25px;
+}
+
+#pagepiling .section.sec6{
+background-size: cover;
+background: rgb(210,209,190);
+background: radial-gradient(circle, rgba(210,209,190,1) 45%, rgba(199,199,201,1) 100%);
+}
+
+#pagepiling .section.sec6 h2{
+font-size: 96px;
+text-shadow:0 10px 15px rgba(0,0,0,.5);
+color: #0d0d19;
+}
+
+#pagepiling .section.sec6 h5{
+font-size: 28px;
+color: #0d0d19;
+
+}
+
+#pagepiling .section.sec6 p{
+font-size: 22px;
+color: #0d0d19;
+
+}
+
+#grid6{
+display: grid;
+width: 995px;
+height: auto;
+margin: 0 auto;
+}
